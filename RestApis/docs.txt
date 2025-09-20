@@ -1,0 +1,14 @@
+Restful webservices with springboot
+1.created simple rest api with class constructor
+2.created api for users with get, post mapping
+3.added exception when user not found, also implemented generic exception(@ControllerAdvice,@ExceptionHandler).
+4.adding swagger dependency provide swagger ui to user.--http://localhost:8088/swagger-ui/index.html
+5.content negotiation(JSON/XML) by adding dependency-accepting json/xml data
+6.i18n(internationalization) -accepting international language
+7.added validations(@valid) by adding validations dependency
+8.url versioning - maintaining version of the url(veriety of solution options-url,request parameter,header,media type)
+9.HATEOAS (Hypermedia as the Engine of Application State - add starter HATEOAS dependency and implementing class with entityModel,webmvcLinkBuilder
+10.filtering (static and dynamic)  -done in FilteringController
+11.user can add posts (description what to learn) ,created post entity and write method to retrieve and save post data.
+12.connect to H2 database and created class file for to write methods(get,post etc) and interface repository
+13.adding stater actuator property application is production ready use,it provide many more features such as health,cache,info,environment,logger,metrices etc. --http://localhost:8088/actuator
